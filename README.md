@@ -23,7 +23,7 @@ A React-based prototype that implements ant colony optimization (ACO) and slime 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd slimey-ux
+cd slimy-ux
 ```
 
 2. Install dependencies:
