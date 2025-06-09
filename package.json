@@ -2,6 +2,7 @@
   "name": "slimey-ux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://trishwh.github.io/Slimy_UX",
   "dependencies": {
     "@types/node": "^16.18.0",
     "@types/react": "^18.0.0",
@@ -15,9 +16,12 @@
     "d3": "^7.8.5",
     "@types/d3": "^7.4.0",
     "styled-components": "^6.1.0",
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^6.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
